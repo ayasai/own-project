@@ -88,6 +88,9 @@ main {
     display: flex; 
     flex-direction: column; 
 } 
+main h2 {
+    font-family: 'Montserrat', sans-serif;
+ }
 
 .section-first { 
     padding-top: 32px; 
@@ -420,6 +423,9 @@ main {
     display: flex; 
     flex-direction: column; 
 } 
+main h2 {
+    font-family: 'Montserrat', sans-serif;
+ }
  
 .section-first { 
     padding-top: 32px; 
