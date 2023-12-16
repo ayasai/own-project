@@ -1,0 +1,660 @@
+/* Global Settings */ 
+ 
+:root { 
+    --dark-color: #333; 
+    --lightblue-color: lightblue; 
+    --light-color: white;
+} 
+ 
+ 
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;  
+} 
+ 
+body { 
+    font-size: 1.1em; 
+    text-align: center; 
+    /* line-height: 1.5;  */
+    margin: 0;
+    overflow-x: hidden;
+} 
+ 
+.bg-dark { 
+    background-color: var(--dark-color); 
+    color: var(--light-color); 
+} 
+ 
+
+.bg-light {
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
+
+.bg-lightblue { 
+    background-color: var(--lightblue-color); 
+    color: var(--dark-color); 
+} 
+ 
+ /* Flexbox */
+.flex { 
+    display: flex; 
+} 
+ 
+/* Header Style */ 
+ 
+header { 
+    height: 350px; 
+    color:var(--light-color); 
+    text-align: center; 
+} 
+/* Путь к h1,p в хэдэре */
+header p, h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+header p {
+    color: var(--dark-color);
+}
+
+ /* bg-image class Style */
+.bg-image { 
+    height: 350px; 
+    width: 1175px; 
+    position: absolute; 
+    z-index: -1;
+    background-image: url(https://uprostim.com/wp-content/uploads/2021/04/image028-3.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    opacity: 0.9; 
+} 
+ 
+ul { 
+    list-style: none; 
+} 
+p { 
+    padding: 1em 0; 
+    text-align: center; 
+} 
+ 
+h1, h2, h3 { 
+    padding: 16px 0; 
+    text-align: center; 
+} 
+ 
+/* Main Area Style */ 
+ 
+main { 
+    display: flex; 
+    flex-direction: column; 
+} 
+
+.section-first { 
+    padding-top: 32px; 
+} 
+.section-first h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+}
+ 
+.about-text { 
+    padding: 0 4em; 
+} 
+ 
+.section-first p { 
+    width: 75%; 
+    margin: auto; 
+} 
+ 
+.section-second { 
+    width: 100%;
+    padding: 16px; 
+    margin: auto; 
+} 
+
+.section-second a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+}
+
+
+.section-second button {
+    border: 1px solid white;
+    background-color: white;
+    width: 300px;
+}
+
+.section-second p{
+    font-family: 'EB Garamond', serif;
+    font-size: 15px;
+    margin-top: -2px;
+}
+
+.section-third p{
+    font-family: 'EB Garamond', serif;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.section-fourth p{
+    font-family: 'EB Garamond', serif;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.section-third a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+}
+
+
+.section-third button {
+    border: 1px solid lightblue;
+    background-color: lightblue;
+    width: 300px;
+}
+
+.section-fourth a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+}
+
+
+.section-fourth button {
+    border: 1px solid white;
+    background-color: white;
+    width: 300px;
+}
+
+button:hover {
+    background-color: aqua;
+    width: 100%;
+}
+
+.section-third { 
+    width: 100%;
+    padding: 16px; 
+    margin: auto; 
+} 
+ 
+.section-fourth { 
+    width: 100%;
+    padding: 16px; 
+    margin: auto; 
+} 
+ 
+.slip { 
+    margin: 10px; 
+    height: 460px; 
+    width: 272px; 
+} 
+ 
+.slip img { 
+    max-width: 272px; 
+    max-height: 200px;
+} 
+ 
+.slip-content { 
+    padding: 1.5em; 
+} 
+
+/* Grid */
+.section-fifth {
+    width: 100%;
+    padding: 16px;
+    margin: auto;
+}
+
+.section-sixth {
+    width: 100%;
+    padding: 16px;
+    margin: auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    /* расстояние между элементами грид */
+    gap: 16px;
+    /* по центру горизонтально */
+    justify-content: center;
+}
+
+.grid-item {
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    padding: 16px;
+    text-align: center;
+    margin: 16px;
+}
+
+.section-fifth a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+}
+
+.section-fifth a:hover {
+    background-color: aqua;
+}
+
+.section-fifth p {
+    margin-top: -30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+     margin: 20px;
+  }
+
+  .container {
+    border: 2px solid #333;
+    padding: 20px;
+    margin: 0;
+  }
+
+  .box img {
+    padding: 20px;
+    border: 2px solid var(--lightblue-color);
+}
+
+ /* Box Model */
+  .section-sixth img {
+    max-width: 200px;
+    max-height: 200px;
+  }
+
+  .section-sixth a {
+    padding: 20px;
+  }
+
+  .section-sixth a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Karla', cursive;
+    font-size: 15px;
+    border: 1px solid var(--lightblue-color);
+    border-radius: 100px;
+    background-color: var(--lightblue-color);
+    transition: background-color 0.7s;
+}
+
+.section-sixth a:hover {
+    background-color: aqua;
+    padding: 20px;
+}
+
+.section-sixth p {
+    font-size: 10px;
+    color: gray;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.section-seven img {
+    width: 150px;
+}
+
+
+#enjoy {
+    padding: 7px;
+    /* margin-top: 150px; */
+    width: 80%;
+    box-sizing: border-box;
+    float: right;
+    border: 2px solid var(--dark-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:0px) and (max-width:768px) {
+    @import url(https://fonts.googleapis.com/css2?family=Lato&display=swap); 
+ 
+ 
+/* Global Settings */ 
+ 
+:root { 
+    --dark-color: #333; 
+    --lightblue-color: lightblue; 
+    --light-color: white;
+} 
+ 
+ 
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;  
+} 
+ 
+body { 
+    font-size: 1.1em; 
+    text-align: center; 
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+} 
+ 
+.bg-dark { 
+    background-color: var(--dark-color); 
+    color: var(--light-color); 
+} 
+ 
+
+.bg-light {
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
+
+.bg-lightblue { 
+    background-color: var(--lightblue-color); 
+    color: var(--dark-color); 
+} 
+ 
+ /* Flexbox */
+.flex { 
+    display: flex; 
+    flex-direction: column;
+} 
+ 
+/* Header Style */ 
+ 
+header { 
+    height: 350px; 
+    color:var(--light-color); 
+    text-align: center; 
+} 
+/* Путь к h1,p в хэдэре */
+header p, h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+  }
+header p {
+    color: var(--dark-color);
+}
+ /* bg-image class Style */
+.bg-image { 
+    height: 90vh; 
+    max-width: 625px; 
+    position: absolute; 
+    z-index: -1;
+    background-image: url(https://uprostim.com/wp-content/uploads/2021/04/image028-3.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    opacity: 0.9; 
+} 
+ 
+ul { 
+    list-style: none; 
+} 
+p { 
+    padding: 1em 0; 
+    text-align: center; 
+} 
+ 
+h1, h2, h3 { 
+    padding: 16px 0; 
+    text-align: center; 
+} 
+ 
+/* Main Area Style */ 
+ 
+main { 
+    display: flex; 
+    flex-direction: column; 
+} 
+ 
+.section-first { 
+    padding-top: 32px; 
+    width: 625px;
+} 
+.section-first h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+}
+ 
+.about-text { 
+    padding: 0 4em; 
+} 
+ 
+.section-second { 
+    width: 100%;
+    padding: 16px; 
+    margin: auto; 
+} 
+
+.section-second a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+}
+
+
+.section-second button {
+    border: 1px solid white;
+    background-color: white;
+    width: 300px;
+}
+
+.section-second p{
+    font-family: 'EB Garamond', serif;
+    font-size: 15px;
+    margin-top: -2px;
+}
+
+.section-third li {
+    max-width: 625px;
+    max-height: 1000px;
+    /* display: flex;
+    flex-direction: column; */
+}
+/* .section-third slip {
+    display: flex;
+    flex-direction: column;
+} */
+.section-third p{
+    font-family: 'EB Garamond', serif;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.section-fourth p{
+    font-family: 'EB Garamond', serif;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+.section-third a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+}
+
+
+.section-third button {
+    border: 1px solid lightblue;
+    background-color: lightblue;
+    width: 300px;
+}
+
+.section-fourth a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+}
+
+
+.section-fourth button {
+    border: 1px solid white;
+    background-color: white;
+    width: 300px;
+}
+
+button:hover {
+    background-color: aqua;
+    width: 100%;
+}
+
+.section-third { 
+    width: 100%;
+    padding: 16px; 
+    margin: auto; 
+} 
+ 
+.section-fourth { 
+    width: 100%;
+    padding: 16px; 
+    margin: auto; 
+} 
+ 
+.slip { 
+    margin: 10px; 
+    height: 460px; 
+    width: 375px; 
+    margin: 20px;
+} 
+ 
+  .section-second ul {
+    display: flex;
+    flex-direction: column;
+  }
+.slip img { 
+    max-width: 375px; 
+    max-height: 200px;
+} 
+ 
+.slip-content { 
+    padding: 1.5em; 
+} 
+
+/* Grid */
+.section-fifth {
+    width: 100%;
+    padding: 16px;
+    margin: auto;
+}
+
+.section-sixth {
+    width: 100%;
+    padding: 16px;
+    margin: auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    /* расстояние между элементами грид */
+    gap: 16px;
+    /* по центру горизонтально */
+    justify-content: center;
+}
+
+.grid-item {
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    padding: 16px;
+    text-align: center;
+    margin: 16px;
+}
+
+.section-fifth a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+}
+
+.section-fifth a:hover {
+    background-color: aqua;
+}
+
+.section-fifth p {
+    margin-top: -30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+/* body {
+    font-family: Arial, sans-serif;
+     margin: 20px;
+  } */
+
+  .container {
+    border: 2px solid #333;
+    padding: 20px;
+    margin: 0;
+  }
+
+  .box img {
+    padding: 20px;
+    border: 2px solid var(--lightblue-color);
+}
+
+ /* Box Model */
+  .section-sixth img {
+    max-width: 200px;
+    max-height: 200px;
+  }
+
+  .section-sixth a {
+    padding: 20px;
+  }
+
+  .section-sixth a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Karla', cursive;
+    font-size: 15px;
+    border: 1px solid var(--lightblue-color);
+    border-radius: 100px;
+    background-color: var(--lightblue-color);
+    transition: background-color 0.7s;
+}
+
+.section-sixth a:hover {
+    background-color: aqua;
+    padding: 20px;
+}
+
+.section-sixth p {
+    font-size: 10px;
+    color: gray;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.section-seven img {
+    width: 150px;
+}
+
+
+#enjoy {
+    padding: 7px;
+    /* margin-top: 150px; */
+    width: 80%;
+    box-sizing: border-box;
+    float: right;
+    border: 2px solid var(--dark-color);
+}
+}
