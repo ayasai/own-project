@@ -341,7 +341,7 @@ body {
 
 
 
-
+/* media screen */
 @media screen and (min-width:0px) and (max-width:768px) {
     @import url(https://fonts.googleapis.com/css2?family=Lato&display=swap); 
  
@@ -468,6 +468,7 @@ main h2 {
     padding: 0 4em; 
 } 
  
+/* section second */
 .section-second { 
     width: 100%;
     padding: 16px; 
@@ -494,16 +495,13 @@ main h2 {
     margin-top: -2px;
 }
 
+/* section third */
 .section-third li {
     max-width: 625px;
     max-height: 1000px;
-    /* display: flex;
-    flex-direction: column; */
+
 }
-/* .section-third slip {
-    display: flex;
-    flex-direction: column;
-} */
+
 .section-third p{
     font-family: 'EB Garamond', serif;
     font-size: 15px;
@@ -530,6 +528,7 @@ main h2 {
     width: 300px;
 }
 
+/* section fourth */
 .section-fourth a {
     text-decoration: none;
     color: black;
@@ -561,6 +560,7 @@ button:hover {
     margin: auto; 
 } 
  
+/* style for cards */
 .slip { 
     margin: 10px; 
     height: 460px; 
@@ -581,6 +581,7 @@ button:hover {
     padding: 1.5em; 
 } 
 
+/* section fifth */
 /* Grid */
 .section-fifth {
     width: 100%;
