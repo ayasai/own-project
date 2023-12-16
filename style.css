@@ -92,6 +92,10 @@ main h2 {
     font-family: 'Montserrat', sans-serif;
  }
 
+ main p {
+    font-family: 'EB Garamond', serif;
+ }
+
 .section-first { 
     padding-top: 32px; 
 } 
@@ -425,6 +429,10 @@ main {
 } 
 main h2 {
     font-family: 'Montserrat', sans-serif;
+ }
+ 
+ main p {
+    font-family: 'EB Garamond', serif;
  }
  
 .section-first { 
