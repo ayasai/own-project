@@ -53,8 +53,12 @@ header {
 header p, h1 {
     font-family: 'Montserrat', sans-serif;
 }
+
 header p {
     color: var(--dark-color);
+    position: absolute;
+    top: 200px;
+    left: 300px;
 }
 
  /* bg-image class Style */
@@ -393,8 +397,11 @@ header p, h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 19px;
   }
-header p {
+  header p {
     color: var(--dark-color);
+    position: absolute;
+    top: 200px;
+    left: 300px;
 }
  /* bg-image class Style */
 .bg-image { 
@@ -434,7 +441,7 @@ main h2 {
  main p {
     font-family: 'EB Garamond', serif;
  }
- 
+
 .section-first { 
     padding-top: 32px; 
     width: 625px;
